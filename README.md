@@ -1,5 +1,5 @@
 # Docker setup that runs a backend for Webdev 2 endassignment
-This repository provides a helper project for a Vue frontend assignment.
+This repository is supposed to be used by a Vue frontend.
 
 It contains:
 * NGINX webserver
