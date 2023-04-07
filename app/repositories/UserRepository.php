@@ -16,7 +16,7 @@ class UserRepository extends Repository
                 "SELECT * FROM users WHERE email = :email AND password = :password"
             );
             $statement->execute([
-                'email' => $email,
+                'email' => strtolower($email),
                 'password' => $password
             ]);
             $result = $statement->fetch(PDO::FETCH_ASSOC);
@@ -45,7 +45,7 @@ class UserRepository extends Repository
             $statement->execute([
                 'username' => $user->username,
                 'password' => $user->password,
-                'email' => $user->email,
+                'email' => strtolower($user->email),
                 'role' => $user->role
             ]);
 
@@ -65,7 +65,7 @@ class UserRepository extends Repository
                 "SELECT id, username, password, email, role FROM users WHERE email = :email"
             );
             $statement->execute([
-                'email' => $email
+                'email' => strtolower($email)
             ]);
             $result = $statement->fetch(PDO::FETCH_ASSOC);
 
