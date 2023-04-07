@@ -1,29 +1,29 @@
-# Web-dev-2-endassignment-frontend
+# Docker setup that runs a demo REST api
+This repository provides a helper project for a Vue frontend assignment.
 
-This template should help get you started developing with Vue 3 in Vite.
+It contains:
+* NGINX webserver
+* PHP FastCGI Process Manager with PDO MySQL support
+* MariaDB (GPL MySQL fork)
+* PHPMyAdmin
 
-## Recommended IDE Setup
+## Installation
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+1. Install Docker Desktop on Windows or Mac, or Docker Engine on Linux.
+1. Clone the project
 
-## Customize configuration
+## Usage
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+In a terminal, run:
+```bash
+docker-compose up
 ```
 
-### Compile and Hot-Reload for Development
+NGINX will now serve files in the app/public folder. Visit localhost in your browser to check.
+PHPMyAdmin is accessible on localhost:8080
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
+If you want to stop the containers, press Ctrl+C. 
+Or run:
+```bash
+docker-compose down
 ```
