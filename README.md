@@ -1,14 +1,22 @@
-# Web-dev-2-endassignment-frontend
+# Web Dev 2 endassignment
 
-This template should help get you started developing with Vue 3 in Vite.
+Github link:
+> https://github.com/TimV22/Web-dev-2-endassignment.git
 
-## Recommended IDE Setup
+### Data
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Accounts can be created by signing in,
+an account already created is:
 
-## Customize configuration
+|Username  |       Email           |    Password    |
+|:--------:|:---------------------:|:--------------:|
+|Osiris    | Osiris@underworld.com | Osiris         |
+|Horus     | horus@falcon          | Horus          |
+|Seth      | seth@chaos.com        | Seth           |
+|Amon      | amon@hiddenone.com    | Amon           |
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+And the SQL database should create itself on startup otherwise the initialise script is in the sql directory
+
 
 ## Project Setup
 
