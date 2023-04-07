@@ -61,7 +61,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `email`, `role`) VALUES
-(14, 'Osiris', '7d482f6c96d1ee875d3180e95f33751bda4451d3c3ae16149b291bfe0875988e', 'Osiris@underworld.com', 2),
+(14, 'Osiris', '7d482f6c96d1ee875d3180e95f33751bda4451d3c3ae16149b291bfe0875988e', 'osiris@underworld.com', 2),
 (15, 'Horus', '8282a9445eb50290c324df66d0e3b01ed53d1b9ea9b04a898cf51d887de466da', 'horus@falcon.com', 2),
 (16, 'Seth', 'f8de6de56aa126973c37b350221ef4fbd2bdb58b889b48b13363a21d2bea5206', 'seth@chaos.com', 2),
 (17, 'Amon', 'e1f97817a7aae914b27c7189a1ab8c0426dcd096ab110c495c06a4ab8b6a4e1c', 'amon@hiddenone.com', 2);
