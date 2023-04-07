@@ -77,25 +77,4 @@ class UserRepository extends Repository
             return false;
         }
     }
-
-    public function getScore($id): ?int
-    {
-        try {
-            $statement = $this->connection->prepare(
-                "SELECT score FROM users WHERE id = :id"
-            );
-            $statement->execute([
-                'id' => $id
-            ]);
-            $result = $statement->fetch(PDO::FETCH_ASSOC);
-
-            if ($result) {
-                return $result['score'];
-            }
-            return null;
-        } catch (Exception) {
-            return null;
-        }
-    }
-
 }
