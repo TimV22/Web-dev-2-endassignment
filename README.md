@@ -15,8 +15,6 @@ an account already created is:
 |Seth      | seth@chaos.com        | Seth           |
 |Amon      | amon@hiddenone.com    | Amon           |
 
-And the SQL database should create itself on startup otherwise the initialise script is in the sql directory
-
 
 ## Project Setup
 
