@@ -28,9 +28,4 @@ class UserService
     {
         return $this->userRepository->userExists($email);
     }
-
-    public function getScore($id): ?int
-    {
-        return $this->userRepository->getScore($id);
-    }
 }
