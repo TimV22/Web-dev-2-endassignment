@@ -11,7 +11,7 @@ an account already created is:
 |Username  |       Email           |    Password    |
 |:--------:|:---------------------:|:--------------:|
 |Osiris    | Osiris@underworld.com | Osiris         |
-|Horus     | horus@falcon          | Horus          |
+|Horus     | horus@falcon.com      | Horus          |
 |Seth      | seth@chaos.com        | Seth           |
 |Amon      | amon@hiddenone.com    | Amon           |
 
